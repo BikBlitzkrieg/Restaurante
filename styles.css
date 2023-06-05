@@ -1,0 +1,73 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color:#201E1D;
+    font-size: 72px;
+    background-color: #FF5733;
+    padding: 10px;
+    width: fit-content;
+    margin: auto; /* Añade esta línea para centrar el elemento */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    background-color: #FF8633;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name-price-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-item-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  
+  .menu-item-price {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .menu-item-image {
+    max-width: 400px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .menu-item-details {
+    background-color: #FF5733; /* Reemplaza el valor con el código de color melón que desees */
+    padding: 10px;
+  }
+  
+  .menu-item-description {
+    margin-top: 15px; /* Ajusta el margen superior */
+    margin-bottom: 10px; /* Ajusta el margen inferior */
+    text-align: justify;
+  }
